@@ -1,0 +1,173 @@
+.first_aspect{ background-color: blue;
+    font-size: 20px;
+    color:white;
+    padding-left: 20px;
+}
+
+.white{
+    text-align:right;
+    padding-right: 20px;
+}    
+.name{
+    float:center;
+    text-align: center;
+    text-decoration: black;
+    font-size: 70px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.third_aspect{
+    background-color: antiquewhite;
+    text-align: center;
+    float: left;
+}
+.first_back{
+    background-image: url(2\ background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 700px;
+    color: white;
+    background-attachment: fixed;
+    float: left;
+}
+.dril{
+    padding-left: 20px;
+}
+.inside_1{
+    background-color: whitesmoke;
+    color:black;
+    padding-left: 40px;
+    line-height: 155%;
+    float: left;
+    border-left: 10px solid black;
+    border-right: 10px solid black ;
+    border-style:outset;
+}
+.btn{
+    color:aliceblue;
+    padding: 20px;
+    border: radius 20px;
+    text-decoration:none;
+    float: none;
+    background-color: blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-style:outset;
+    border-radius: 30px;
+
+}
+.inside_2{
+    background-color: white;
+    color: black;
+    height: 250px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pad2{
+    padding-left: 30px;
+}
+.pad{
+    padding-left: 50px;
+}
+.pic{
+    color:aliceblue;
+}
+.fontpic{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 35px;
+    line-height: 35px;
+}
+.second_back{
+    background-image: url(favicon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    height: 500px;
+    width: 1240px;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: italic;
+    padding-left:20px;
+    line-height:150%;
+}
+.inside_3{
+    background-color: white;
+    color: black;
+    height: 370px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot{
+    text-align:center;
+    color: aliceblue;
+    background-color: blue;
+    height: 50px;
+}
+body{
+    padding:0;
+    margin:0;
+    background-color:antiquewhite;
+    background-size: cover;
+}
+.slider-frame{
+    overflow: hidden;
+    height: 300px;
+    width: 500px;
+    margin-left:390px;
+    margin-top: 20px;
+    float: left;
+}
+.logo_section{
+    font-size: 20px;
+}
+.intro{
+    font-weight: lighter;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    padding-left:20px;   
+}
+.beside{
+    float: right;
+    margin-right: 50px;
+    padding-right:35px;
+}
+/*------slide animation begins-----*/
+
+@-webkit-keyframes slide_animation{
+    0% {left: 0px;}
+    10% {left: 0px;}
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left: 0px;}
+}
+.slide-images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position:relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 36s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:normal;
+    -webkit-animation-play-state:running;
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position:relative;
+    float: right;
+}
+    
+
+
+/*---------------- END OF ANIMATION PART-----------*/
